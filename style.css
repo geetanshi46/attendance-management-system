@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #f54ea2, #ff7676);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Login card */
+.loginform {
+    width: min(320px, 90%);
+    background-color: #1e1e2f;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Heading */
+.form-heading {
+    color: #a5a8b5;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Input groups */
+.inputgroup {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputgroup .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 14px;
+}
+
+.inputgroup input {
+    width: 100%;
+    padding: 12px 10px 12px 35px; /* space for the icon */
+    border: none;
+    border-radius: 5px;
+    background-color: #2e2e42;
+    color: #fff;
+    font-size: 14px;
+}
+
+.inputgroup input::placeholder {
+    color: #888;
+}
+
+.inputgroup input:focus {
+    outline: none;
+    background-color: #3b3b52;
+    transition: background 0.3s;
+}
+
+/* Login Button */
+.btnlogin {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f54ea2;
+    background-color: transparent;
+    color: #f54ea2;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.btnlogin:hover {
+    background: #f54ea2;
+    color: #fff;
+}
+
+/* Forgot password link */
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.forgot-password:hover {
+    color: #f54ea2;
+    text-decoration: underline;
+}
+
+/* Footer text */
+.footer-text {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #555;
+    line-height: 1.4;
+}
