@@ -29,7 +29,7 @@ C:\xampp\htdocs
 4️⃣ Start **Apache** and **MySQL** from the XAMPP control panel.  
 5️⃣ Open your browser and go to:
 ```
-http://localhost/attendenceapp/login.php
+(http://localhost/attendenceapp/index.php)
 ```
 6️⃣ Login credentials:
 - Username: `admin`
